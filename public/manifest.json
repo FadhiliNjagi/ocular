@@ -1,7 +1,7 @@
 {
-    "name": "pwa-test",
-    "short_name": "pwa-test",
-    "theme_color": "#4DBA87",
+    "name": "Ocular Camera App",
+    "short_name": "Ocular",
+    "theme_color": "#3880ff",
     "icons": [
       {
         "src": "./img/icons/android-chrome-192x192.png",
