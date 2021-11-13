@@ -24,6 +24,8 @@ import '@ionic/vue/css/display.css';
 import './theme/variables.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
 
+Vue.config.productionTip = false;
+
 const app = createApp(App)
   .use(IonicVue)
   .use(router);
