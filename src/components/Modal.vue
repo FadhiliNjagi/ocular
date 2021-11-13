@@ -58,7 +58,7 @@
 <script>
 import { IonContent, IonHeader, IonTitle, IonToolbar, IonButtons } from '@ionic/vue';
 import { defineComponent } from 'vue';
-import { logoIonic, logoWindows, logoPwa, logoAndroid, logoApple, globe, bookOutline, libraryOutline, pawOutline } from 'ionicons/icons';
+import { logoIonic, logoWindows, logoPwa, logoAndroid, logoApple, globe, bookOutline, libraryOutline, pawOutline, close } from 'ionicons/icons';
 
 export default defineComponent({
   name: 'Modal',
@@ -67,7 +67,7 @@ export default defineComponent({
   },
   setup() {
     return {
-      content: 'Content', logoIonic, logoWindows, logoPwa, logoAndroid, logoApple, globe, bookOutline, libraryOutline, pawOutline
+      content: 'Content', logoIonic, logoWindows, logoPwa, logoAndroid, logoApple, globe, bookOutline, libraryOutline, pawOutline, close
     }
   },
   components: { IonContent, IonHeader, IonTitle, IonToolbar, IonButtons }
