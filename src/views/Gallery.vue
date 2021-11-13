@@ -35,7 +35,7 @@ import { IonPage, IonHeader, IonFab, IonFabButton, IonIcon, IonToolbar, IonTitle
 import { usePhotoGallery, UserPhoto } from '@/composables/usePhotoGallery';
 
 export default  {
-  name: 'Tab2',
+  name: 'Gallery',
   components: { IonPage, IonHeader, IonFab, IonFabButton, IonIcon, IonToolbar, IonTitle, IonContent, IonGrid, IonCol, IonImg, IonCard },
   setup() {
     const { takePhoto, photos, showActionSheet } = usePhotoGallery()
