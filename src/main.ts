@@ -34,3 +34,11 @@ router.isReady().then(() => {
 });
 
 defineCustomElements(window);
+
+const prod = process.env.NODE_ENV === 'production';
+const swLocation = '/service-worker.js';
+
+if (prod) {
+    navigator.serviceWorker.register(swLocation).catch( error => console.log)
+    console.log('sw register');
+}
